@@ -1263,7 +1263,7 @@ U 1 1 5BE1744D
 P 5650 2850
 F 0 "J12" H 5677 2826 50  0000 L CNN
 F 1 "izq" H 5677 2735 50  0000 L CNN
-F 2 "" H 5650 2850 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical" H 5650 2850 50  0001 C CNN
 F 3 "~" H 5650 2850 50  0001 C CNN
 	1    5650 2850
 	-1   0    0    -1  
@@ -1274,7 +1274,7 @@ U 1 1 5BE175AA
 P 5650 4900
 F 0 "J13" H 5544 3975 50  0000 C CNN
 F 1 "dcha" H 5544 4066 50  0000 C CNN
-F 2 "" H 5650 4900 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical" H 5650 4900 50  0001 C CNN
 F 3 "~" H 5650 4900 50  0001 C CNN
 	1    5650 4900
 	-1   0    0    1   
@@ -1463,12 +1463,12 @@ $EndComp
 Wire Wire Line
 	9350 3550 8950 3550
 $Comp
-L Connector:Conn_01x05_Female J?
+L Connector:Conn_01x05_Female J14
 U 1 1 5C2E0A99
 P 6000 3850
-F 0 "J?" H 5894 4235 50  0000 C CNN
+F 0 "J14" H 5894 4235 50  0000 C CNN
 F 1 "inf" H 5894 4144 50  0000 C CNN
-F 2 "" H 6000 3850 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 6000 3850 50  0001 C CNN
 F 3 "~" H 6000 3850 50  0001 C CNN
 	1    6000 3850
 	-1   0    0    -1  
