@@ -1,2 +1,3 @@
 (sym_lib_table
+  (lib (name pcb-pulpo-rescue)(type Legacy)(uri "${KIPRJMOD}/pcb pulpo-rescue.lib")(options "")(descr ""))
 )
