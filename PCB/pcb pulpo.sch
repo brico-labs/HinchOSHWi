@@ -20,7 +20,7 @@ U 1 1 5BC8F2A8
 P 7600 1250
 F 0 "J15" V 7473 1330 50  0000 L CNN
 F 1 "Entrada 12V" V 7750 950 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 7600 1250 50  0001 C CNN
+F 2 "teensy:conector pablo pulpo hinchoshwi" H 7600 1250 50  0001 C CNN
 F 3 "~" H 7600 1250 50  0001 C CNN
 	1    7600 1250
 	-1   0    0    -1  
@@ -145,7 +145,7 @@ U 1 1 5BCBF811
 P 8250 1300
 F 0 "C1" H 8368 1346 50  0000 L CNN
 F 1 "CP" H 8368 1255 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P3.80mm" H 8288 1150 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 8288 1150 50  0001 C CNN
 F 3 "~" H 8250 1300 50  0001 C CNN
 	1    8250 1300
 	1    0    0    -1  
@@ -156,7 +156,7 @@ U 1 1 5BCBF8D4
 P 9150 1300
 F 0 "C2" H 9268 1346 50  0000 L CNN
 F 1 "CP" H 9268 1255 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P3.80mm" H 9188 1150 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 9188 1150 50  0001 C CNN
 F 3 "~" H 9150 1300 50  0001 C CNN
 	1    9150 1300
 	1    0    0    -1  
