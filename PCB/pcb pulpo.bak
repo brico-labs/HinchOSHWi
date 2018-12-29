@@ -15,12 +15,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Screw_Terminal_01x02 J15
+L Connector:Screw_Terminal_01x02 J0
 U 1 1 5BC8F2A8
 P 7600 1250
-F 0 "J15" V 7473 1330 50  0000 L CNN
+F 0 "J0" V 7473 1330 50  0000 L CNN
 F 1 "Entrada 12V" V 7750 950 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 7600 1250 50  0001 C CNN
+F 2 "teensy:conector pablo pulpo hinchoshwi" H 7600 1250 50  0001 C CNN
 F 3 "~" H 7600 1250 50  0001 C CNN
 	1    7600 1250
 	-1   0    0    -1  
@@ -145,7 +145,7 @@ U 1 1 5BCBF811
 P 8250 1300
 F 0 "C1" H 8368 1346 50  0000 L CNN
 F 1 "CP" H 8368 1255 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P3.80mm" H 8288 1150 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 8288 1150 50  0001 C CNN
 F 3 "~" H 8250 1300 50  0001 C CNN
 	1    8250 1300
 	1    0    0    -1  
@@ -156,7 +156,7 @@ U 1 1 5BCBF8D4
 P 9150 1300
 F 0 "C2" H 9268 1346 50  0000 L CNN
 F 1 "CP" H 9268 1255 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P3.80mm" H 9188 1150 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 9188 1150 50  0001 C CNN
 F 3 "~" H 9150 1300 50  0001 C CNN
 	1    9150 1300
 	1    0    0    -1  
@@ -1138,10 +1138,10 @@ F 3 "" H 4800 700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 J7
+L Connector:Screw_Terminal_01x02 J6
 U 1 1 5C79A0EE
 P 5000 1000
-F 0 "J7" V 5100 750 50  0001 L CNN
+F 0 "J6" V 5100 750 50  0001 L CNN
 F 1 "fan6" V 5100 900 50  0000 L CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 5000 1000 50  0001 C CNN
 F 3 "~" H 5000 1000 50  0001 C CNN
@@ -1274,10 +1274,10 @@ F 3 "" H 4800 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 J8
+L Connector:Screw_Terminal_01x02 J7
 U 1 1 5C79A13C
 P 5000 2200
-F 0 "J8" V 5100 1950 50  0001 L CNN
+F 0 "J7" V 5100 1950 50  0001 L CNN
 F 1 "fan7" V 5100 2100 50  0000 L CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 5000 2200 50  0001 C CNN
 F 3 "~" H 5000 2200 50  0001 C CNN
@@ -1307,7 +1307,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 4100 2450 50
 	0    1    1    0   
 $EndComp
 Text GLabel 3100 1800 0    50   Input ~ 0
-pin7
+pin10
 Wire Wire Line
 	3400 2650 3400 2550
 Wire Wire Line
@@ -1412,10 +1412,10 @@ F 3 "" H 4800 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 J9
+L Connector:Screw_Terminal_01x02 J8
 U 1 1 5C79A18B
 P 5000 3400
-F 0 "J9" V 5100 3150 50  0001 L CNN
+F 0 "J8" V 5100 3150 50  0001 L CNN
 F 1 "fan8" V 5100 3300 50  0000 L CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 5000 3400 50  0001 C CNN
 F 3 "~" H 5000 3400 50  0001 C CNN
@@ -1445,7 +1445,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 4100 3650 50
 	0    1    1    0   
 $EndComp
 Text GLabel 3100 3000 0    50   Input ~ 0
-pin8
+pin9
 Wire Wire Line
 	3400 3850 3400 3750
 Wire Wire Line
@@ -1548,10 +1548,10 @@ F 3 "" H 4800 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 J10
+L Connector:Screw_Terminal_01x02 J9
 U 1 1 5C79A1D9
 P 5000 4600
-F 0 "J10" V 5100 4350 50  0001 L CNN
+F 0 "J9" V 5100 4350 50  0001 L CNN
 F 1 "fan9" V 5100 4500 50  0000 L CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 5000 4600 50  0001 C CNN
 F 3 "~" H 5000 4600 50  0001 C CNN
@@ -1581,7 +1581,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 4100 4850 50
 	0    1    1    0   
 $EndComp
 Text GLabel 3100 4200 0    50   Input ~ 0
-pin9
+pin8
 Wire Wire Line
 	3400 5050 3400 4950
 Wire Wire Line
@@ -1686,10 +1686,10 @@ F 3 "" H 4800 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 J11
+L Connector:Screw_Terminal_01x02 J10
 U 1 1 5C79A228
 P 5000 5800
-F 0 "J11" V 5100 5550 50  0001 L CNN
+F 0 "J10" V 5100 5550 50  0001 L CNN
 F 1 "fan10" V 5100 5650 50  0000 L CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 5000 5800 50  0001 C CNN
 F 3 "~" H 5000 5800 50  0001 C CNN
@@ -1719,7 +1719,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 4100 6050 50
 	0    1    1    0   
 $EndComp
 Text GLabel 3100 5400 0    50   Input ~ 0
-pin10
+pin7
 Wire Wire Line
 	3400 6250 3400 6150
 Wire Wire Line
@@ -1832,10 +1832,10 @@ Wire Wire Line
 	7450 3850 8250 3850
 Connection ~ 7450 3850
 $Comp
-L Connector:Screw_Terminal_01x02 J6
+L Connector:Screw_Terminal_01x02 J11
 U 1 1 5C0F288D
 P 2950 6900
-F 0 "J6" V 3050 6650 50  0001 L CNN
+F 0 "J11" V 3050 6650 50  0001 L CNN
 F 1 "direct output" V 3050 6600 50  0000 L CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 2950 6900 50  0001 C CNN
 F 3 "~" H 2950 6900 50  0001 C CNN
