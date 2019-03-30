@@ -1,16 +1,23 @@
-/* proyecto hinchoswi
+/* Proyecto HinchOSHWI
 
-este es con teensy
+Código fuente de Teensy para la creación de un pulpo hinchable (OSHWI)
+Las "patas" del pulpo se inflan de manera independiente con 8 ventiladores,
+controlados por un Teensy y transistores MOSFETS.
+
+Para más información sobre el Proyecto:
+· https://github.com/brico-labs/HinchOSHWi
+· https://bricolabs.cc/wiki/guias/hinchoshwi
+
 */
 
 #include <Arduino.h>
 
-#define pauseMin 200
-#define pauseMax 600
+#define pauseMin 200    // tiempo de pausa mínima entre iteraciones de los ventiladores
+#define pauseMax 600    // tiempo de pausa máxima entre iteraciones de los ventiladores
 #define ledPin 13
-#define headFan 23
+// #define headFan 20  // el ventidador de cabez, se conecta directo a la alimentación de entrada
 
-int fanPins[] = {3, 4, 5, 6, 9, 10, 21, 20};
+int fanPins[] = {3, 4, 5, 6, 9, 10, 22, 23};  // pines de salida de los ventiladores al mosfet
 int currentFan = 0;
 int power = 0;
 int powerHead = 0;
